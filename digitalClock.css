@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Grey+Qo&family=League+Script&family=Matemasie&family=Sankofa+Display&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #353535;
+    color: #ffffff;
+}
+#Clock{
+    width: 50rem;
+    height: 15rem;
+    background-color: #000000;
+    margin: auto;
+    margin-top: 4rem;
+    border-radius: 2rem;
+}
+#Heading{
+    width: 50rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Matemasie", sans-serif;
+    font-size: 1.8rem;
+}
+#Time{
+    width: 40rem;
+    height: 9rem;
+    border: 1px solid #ffffff;
+    margin: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
