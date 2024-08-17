@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#Container{
+    width: 50rem;
+    height: 15rem;
+    background-color: #000000;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.Box{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 1rem;
+}
+.Time{
+    width: 8rem;
+    height: 6rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 3.5rem;
+}
+.Text{
+    width: 8rem;
+    height: 2rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
